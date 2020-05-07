@@ -61,13 +61,13 @@ while True: # the main game loop
         playerCommand = input()
         if playerCommand == 'q':
             sys.exit() # quit the program
-        if playerCommand == 'f': # or playerMove == 'v' or playerMove == 'b':
+        elif playerCommand == 'f': # or playerMove == 'v' or playerMove == 'b':
             break # break out of player input loop
-        if playerCommand == "r":            
+        elif playerCommand == "r":            
             print("Can't escape. It's a trainer battle you dingus.")
-        if playerCommand == 'b':
+        elif playerCommand == 'b':
             print('You have no items!')
-        if playerCommand == 'p':
+        elif playerCommand == 'p':
             print("Your other POKEMON doesn't feel like fighting.")
         #easter egg
         if playerMove == 'tiddy':
