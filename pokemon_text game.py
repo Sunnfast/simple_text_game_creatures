@@ -25,12 +25,13 @@ while True: # the main game loop
             print('PIKACHU hops off your shoulder ready to fight.')
             break # break out of the input loop
         elif playerMove == 'mew':
-            print('SECRET POKEMON USED!')
+            print('SECRET POKEMON USED! MEW has appeared to join the fight.')
             break # break the player out of the input loop
         #easter egg
-        if playerMove == 'tiddy':
-            print('(Hehe you found the easter egg... tiddy.)')
-        print('Please develop some reading comprehension, Erica.')
+        if playerMove == 'yeehaw':
+            print('(Hehe you found the easter egg... yeehaw!)')
+        #if playerMove == null;
+            #print('Please develop some reading comprehension, Erica.')
 
     # display what the player chose
     if playerMove == 'c':
@@ -68,7 +69,7 @@ while True: # the main game loop
         elif playerCommand == 'b':
             print('You have no items!')
         elif playerCommand == 'p':
-            print("Your other POKEMON doesn't feel like fighting.")
+            print("Your other POKEMON don't feel like fighting.")
         #easter egg
         if playerMove == 'tiddy':
             print('(Hehe you found the easter egg... tiddy.)')
@@ -99,28 +100,28 @@ while True: # the main game loop
         wins = wins + 1
     #secret pokemon winning matchups -mew
     elif playerMove == 'mew' and computerMove == 'c':
-        print('MEW used hyperbeam.')
+        print('MEW used HYPERBEAM.')
         print("Critical hit!")
         print("The opposing CHARIZARD fainted!")
         wins = wins + 1
     elif playerMove == 'mew' and computerMove == 'b':
-        print('MEW used hyperbeam.')
+        print('MEW used HYPERBEAM.')
         print("Critical hit!")
         print("The opposing BLASTOISE fainted!")
         wins = wins + 1
     elif playerMove == 'mew' and computerMove == 'c':
-        print('MEW used hyperbeam.')
+        print('MEW used HYPERBEAM.')
         print("Critical hit!")
         print("The opposing CHARIZARD fainted!")
         wins = wins + 1
     #secret pokemon winning matchups -pikachu
     elif playerMove == 'pikachu' and computerMove == 'c':
-        print('PIKACHU used thunderbolt.')
+        print('PIKACHU used THUNDERBOLT.')
         print("It's super effective!")
         print("The opposing CHARIZARD fainted!")
         wins = wins + 1
     elif playerMove == 'pikachu' and computerMove == 'b':
-        print('PIKACHU used thunderbolt.')
+        print('PIKACHU used THUNDERBOLT.')
         print("It's super effective!")
         print("The opposing BLASTOISE fainted!")
         wins = wins + 1
